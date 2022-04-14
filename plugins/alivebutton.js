@@ -1,7 +1,4 @@
-/* Rudhra princerudh
-*/
-
-const princerudh = require('../events');
+const pranavzx = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -16,8 +13,8 @@ var ddd = ggg.toString('utf-8')
 
 let whb = Config.WORKTYPE == 'public' ? false : true
 
-princerudh.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
-// send a buttons message!credit princerudh
+pranavzx.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+// send a buttons message!credit pranavzx
     const buttons = [
         {buttonId: 'id1', buttonText: {displayText: Config.ALIVE_BUTTON }, type: 1},
         {buttonId: 'id2', buttonText: {displayText: Config.ALIVEBUTTON }, type: 1}
